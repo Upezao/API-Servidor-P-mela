@@ -1,0 +1,30 @@
+body {
+    overflow: hidden;
+  }
+  
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+a{
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    color: blue;
+}
+
